@@ -1,5 +1,5 @@
 <h1 align="center">
-  Meu Primeiro Portfólio</h1>
+  Portfólio Vitrine</h1>
 <br>
 <h3 align="center">Projeto responsivo desenvolvido com HTML, CSS e JavaScript.</h3>
 <br>
