@@ -76,86 +76,67 @@ header {
     a {
         color: #ff00c8;
     }
-}
 
-.infos {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    letter-spacing: 2px;
-    padding: 0 15px;
-    max-width: 60%;
-    max-width: 60%;
-    text-shadow: 0 5px 10px #0004;
-}
+    .infos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        letter-spacing: 2px;
+        padding: 0 15px;
+        max-width: 60%;
+        max-width: 60%;
+        text-shadow: 0 5px 10px #0004;
+    }
 
-.home h1 {
-    font-size: 100px;
-    color: #ffffff;
-}
+    h1 {
+        font-size: 100px;
+        color: #ffffff;
+    }
 
-.subtitle {
-    font-size: 16px;
-    margin-top: -20px;
-    color: #cacaca;
-}
+    .subtitle {
+        font-size: 16px;
+        margin-top: -20px;
+        color: #cacaca;
+    }
 
-.p-infos {
-    font-size: 20px;
-    color: #ffffff;
-}
+    .p-infos {
+        font-size: 20px;
+        color: #ffffff;
+    }
 
-ul {
-    list-style: none;
-}
+    ul {
+        list-style: none;
+    }
 
-.ul-social-medias {
-    display: flex;
-    gap: 20px;
-}
+    .ul-social-medias {
+        display: flex;
+        gap: 20px;
+    }
 
 
-i {
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
+    i {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
 
-i:hover {
-    color: #ff00c8;
-    border: 1px solid #ff00c8;
-    transform: scale(1.1);
-}
+    i:hover {
+        color: #ff00c8;
+        border: 1px solid #ff00c8;
+        transform: scale(1.1);
+    }
 
-.a-social-media {
-    text-decoration: none;
-}
-
-.perfil {
-    background-color: transparent;
-    max-width: 450px;
-    border-radius: 50%;
-}
-
-.img-perfil {
-    max-width: 100%;
-    border-radius: 50%;
-    margin-bottom: -4.1px;
-    margin-left: 0.4px;
-}
-
-.inner-shadow {
-    background: linear-gradient(to right, #ff00c8, #0f083d, #9443d8);
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease-in-out infinite;
+    .a-social-media {
+        text-decoration: none;
+    }
 }
 
 .projects-swiper {
@@ -265,8 +246,26 @@ swiper-slide {
     padding-top: 8%;
     display: flex;
     justify-content: center;
-    gap: 200px;
     align-items: center;
+
+    .perfil {
+        background-color: transparent;
+        max-width: 450px;
+        border-radius: 50%;
+    }
+
+    .img-perfil {
+        max-width: 100%;
+        border-radius: 50%;
+        margin-bottom: -4.1px;
+        margin-left: 0.4px;
+    }
+
+    .inner-shadow {
+        background: linear-gradient(to right, #ff00c8, #0f083d, #9443d8);
+        background-size: 180% 180%;
+        animation: gradient-animation 5s ease-in-out infinite;
+    }
 }
 
 .container-download-curriculo {
