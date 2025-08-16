@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/favicon-16x16.png" type="image/png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Felipe Ryo - Desenvolvedor Web Full-Stack">
+    <meta property="og:image" content="https://feliperyo.github.io/first-portfolio/assets/perfil/perfil-no-bg.webp">
+    <meta property="og:description" content="Portfólio de Desenvolvedor Web Full-Stack de Felipe Ryo">
+    <meta property="og:site_name" content="Portfólio Felipe Ryo">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <title>Felipe Ryo - Desenvolvedor Web Full-Stack</title>
+</head>
+
+<body>
+
+    <div>
+
+        <header>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <nav class="nav-list">
+                <a onclick="closeNav()" href="#home">Início</a>
+                <a onclick="closeNav()" href="#projetos">Projetos</a>
+                <a onclick="closeNav()" href="#curriculo">Currículo</a>
+                <a onclick="closeNav()" href="#footer">Contato</a>
+            </nav>
+
+        </header>
+
+        <section class="home" id="home">
+            <div class="infos hidden-left">
+                <h1>Olá, sou o <span class="span-title">
+                        <br>Felipe Ryo!</span></h1>
+                <p class="subtitle">Desenvolvedor Web Front-End</p>
+                <p class="p-infos">Atualmente, atuo como Desenvolvedor Front-End e UX/UI Designer autônomo, onde
+                    aplico minha formação em Design Gráfico da Universidade Paulista, aliada ao conhecimento técnico
+                    adquirido no Dev Club e na Saga.
+                </p>
+                <p class="p-infos">Através da integração eficiente entre Front-End e Back-End, contribuo com a criação
+                    de websites utilizando tecnologias como HTML, CSS, JavaScript, React.js e Node.js. </p>
+                <ul class="ul-social-medias">
+                    <li class="li-social-medias">
+                        <a class="a-social-media" href="https://www.linkedin.com/in/feliperyo/"
+                            title="Abrir LinkedIn de Felipe Ryo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="li-social-medias">
+                        <a class="a-social-media" href="https://github.com/feliperyo" title="Abrir GitHub de Felipe Ryo"
+                            target="_blank">
+                            <i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="li-social-medias">
+                        <a class="a-social-media" href="https://www.behance.net/feliperyo"
+                            title="Abrir Behance de Felipe Ryo" target="_blank">
+                            <i class="fab fa-behance"></i></a>
+                    </li>
+                    <li class="li-social-medias">
+                        <a class="a-social-media" href="mailto:ryofeliperyo@gmail.com" type="Email"
+                            title="Enviar Email para Felipe Ryo" target="_blank">
+                            <i class="devicon-google-plain"></i></a>
+                    </li>
+                    <li class="li-social-medias">
+                        <a class="a-social-media" href="http://wa.me/551172821988"
+                            title="Enviar mensagem no WhatsApp para Felipe Ryo" target="_blank">
+                            <i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="container-perfil hidden">
+                <div class="perfil inner-shadow">
+                    <img class="img-perfil" src="./assets/perfil/perfil-no-bg.webp" alt="Foto de perfil Felipe Ryo" />
+                </div>
+        </section>
+
+
+        <section id="projetos" class="projects-swiper">
+            <h2 class="title">Meus <span class="span-title">Projetos</span></h2>
+
+            <div class="container-projects">
+
+                <p class="subtitle-projects">Trabalhos</p>
+
+                <swiper-container class="mySwiper hidden-left-swiper">
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://www.renovarcorretora.com.br/" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/renovar-img.webp"
+                                    alt="Renovar Corretora" />
+                                <h3 class="project-h3">Renovar Corretora</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Abrir Deploy</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/studio-no-8" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/studiono8-img.webp" alt="Studio NO-8" />
+                                <h3 class="project-h3">Studio NO-8</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/japanese-food" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/japanese-img.webp" alt="Japanese Food" />
+                                <h3 class="project-h3">Japanese Food</h3>
+                                <div class="infos-project">
+                                    <p>HTML, Tailwind, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/skate-world" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/skate-world-img.webp"
+                                    alt="Skate World - Page" />
+                                <h3 class="project-h3">Skate World</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/tesla" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/tesla-img.webp" alt="Tesla" />
+                                <h3 class="project-h3">Tesla</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/mra-swim" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/mra-img.webp" alt="MRA Natação" />
+                                <h3 class="project-h3">MRA Natação - Freelance</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Site</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/cardapio-online" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/cardapio-online-img.webp"
+                                    alt="Cardápio Online" />
+                                <h3 class="project-h3">Cardápio Online</h3>
+                                <div class="infos-project">
+                                    <p>React.js</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/dev-movies" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/devmovies-img.webp"
+                                    alt="Skate World - Page" />
+                                <h3 class="project-h3">DevMovies</h3>
+                                <div class="infos-project">
+                                    <p>React.js</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/mario-brothers" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/mario-img.webp" alt="Mario Brothers" />
+                                <h3 class="project-h3">Mario Brothers</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/coffee-page" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/coffee-img.webp" alt="Coffee Page" />
+                                <h3 class="project-h3">Coffee Page</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                </swiper-container>
+
+                <p class="subtitle-projects">Landing Pages</p>
+
+                <swiper-container class="mySwiper hidden-right">
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/yoga" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/yoga-img.webp" alt="Landing Page Yoga" />
+                                <h3 class="project-h3">Yoga</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://feliperyo.github.io/tattoo-barber/" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/tattoo-img.webp"
+                                    alt="Landing Page Tattoo e Barbearia" />
+                                <h3 class="project-h3">Tattoo e Barbearia</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/car-show" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/car-show-img.webp"
+                                    alt="Landing Page Car Show" />
+                                <h3 class="project-h3">Car Show</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/tourist-guide" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/guia-img.webp" alt="Guia Turístico" />
+                                <h3 class="project-h3">Guia Turístico</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://vendas-test.000webhostapp.com/elementor-231/" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/x-mulher-img.webp"
+                                    alt="EXPERIENCE MULHER" />
+                                <h3 class="project-h3">EXPERIENCE MULHER</h3>
+                                <div class="infos-project">
+                                    <p>WordPress, Elementor e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Site</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/itau" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/itau-img.webp" alt="Landing Page Itaú" />
+                                <h3 class="project-h3">Itaú</h3>
+                                <div class="infos-project">
+                                    <p>React.js</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/rocketeer-helmets" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/rockteer-helmets-img.webp"
+                                    alt="Landing Page Rocketeer Helmets" />
+                                <h3 class="project-h3">Rocketeer Helmets</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/barber-shop" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/barber-shop-img.webp"
+                                    alt="Landing Page Barber Shop" />
+                                <h3 class="project-h3">Barber Shop</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/ibliz-inc-pumpkin" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/ibliz-pumpkin-img.webp"
+                                    alt="Ibliz Inc Pumpkin - Landing Page" />
+                                <h3 class="project-h3">Ibliz Inc Pumpkin</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/ibliz-inc-ghosts" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/ghosts-img.webp"
+                                    alt="Ibliz Inc Ghosts - Landing Page" />
+                                <h3 class="project-h3">Ibliz Inc Ghosts</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/apple-page" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/apple-img.webp" alt="Apple" />
+                                <h3 class="project-h3">Apple</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/starbucks" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/starbucks-img.webp"
+                                    alt="Starbucks - Landing Page" />
+                                <h3 class="project-h3">Starbucks</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/cuidamos-do-seu-pet" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/pet-img.webp" alt="Pet - Landing Page" />
+                                <h3 class="project-h3">Pet</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/via-movel" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/via-movel-img.webp"
+                                    alt="Via Móvel - Landing Page" />
+                                <h3 class="project-h3">Via Móvel</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/ampla-cobertura" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/ampla-cobertura-img.webp"
+                                    alt="Ampla Cobertura - Landing Page" />
+                                <h3 class="project-h3">Ampla Cobertura</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </swiper-slide>
+                </swiper-container>
+
+                <p class="subtitle-projects">Interativos</p>
+
+                <swiper-container class="mySwiper hidden-left-swiper">
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/x-devs" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/x-devs-img.webp" alt="X-Devs" />
+                                <h3 class="project-h3">X-Devs</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/app-exercises" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/app-exercises-img.webp"
+                                    alt="App Exercises" />
+                                <h3 class="project-h3">App - Relógio e Cronômetro</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/currency-converter" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/conversor-img.webp"
+                                    alt="Conversor de Moedas" />
+                                <h3 class="project-h3">Conversor de Moedas</h3>
+                                <div class="infos-project">
+                                    <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                    <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/weather-forecast" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/tempo-img.webp" alt="Previsão do Tempo" />
+                                <h3 class="project-h3">Previsão do Tempo</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript, Consumo de API e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/x-lanches" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/x-lanches-img.webp" alt="X-Lanches" />
+                                <h3 class="project-h3">X-Lanches</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/eye-z" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/eye-z-img.webp" alt="Eye.z Login" />
+                                <h3 class="project-h3">Eye.z Login</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade (Mobile First).</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/divination-game" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/divination-game-img.webp"
+                                    alt="Jogo de Adivinhação" />
+                                <h3 class="project-h3">Jogo de Adivinhação</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/sorteio-de-numero" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/sort-number-img.webp"
+                                    alt="Sorteio de Número" />
+                                <h3 class="project-h3">Sorteio de Número</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/joken-po" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/joken-po-img.webp" alt="Joken-Pô" />
+                                <h3 class="project-h3">Joken-Pô</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/calculadora" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/calculator-img.webp" alt="Calculadora" />
+                                <h3 class="project-h3">Calculadora</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="project">
+                            <a href="https://github.com/feliperyo/cronometro" target="_blank">
+                                <img class="swiper-img" src="./assets/mockups/cronometro-img.webp" alt="Cronômetro" />
+                                <h3 class="project-h3">Cronômetro</h3>
+                                <div class="infos-project">
+
+                                    <div class="p-projects">
+                                        <p>HTML, CSS, JavaScript e Responsividade.</p>
+                                        <p class="p-reposit">🔗 Ver Repositório no GitHub</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                </swiper-container>
+            </div>
+
+        </section>
+
+        <section class="curriculo" id="curriculo">
+            <div class="container-download-curriculo hidden-left-swiper">
+                <h2>Currículo Felipe Ryo</h2>
+                <h3>Desenvolvedor Web Front-End</h3>
+                <h4>HTML | CSS | Tailwind | JavaScript | React.js | Node.js | Figma | Git | GitHub</h4>
+                <a class="btn-curriculo" href="./assets/curriculo/Desenvolvedor Web Front-End - Felipe Ryo.pdf"
+                    download="Desenvolvedor Web Front-End - Felipe Ryo.pdf">Baixar
+                    arquivo
+                    PDF</a>
+            </div>
+
+            <div class="container-curriculo hidden-curriculo">
+                <a href="./assets/curriculo/Desenvolvedor Web Front-End - Felipe Ryo.pdf" target="_blank"><img
+                        class="curriculo-img" src="./assets/curriculo/curriculo-img.jpg"
+                        alt="Currículo Felipe Ryo" /></a>
+            </div>
+
+        </section>
+
+        <section class="footer" id="footer">
+
+            <div class="footer-up">
+
+                <div class="footer-left">
+                    <h3>Navegar</h3>
+
+                    <a class="a-footer" href="#home">Início</a>
+                    <a class="a-footer" href="#projetos">Projetos</a>
+                    <a class="a-footer" href="#curriculo">Currículo</a>
+                    <p>Contato</p>
+
+                </div>
+
+                <div class="footer-right">
+
+                    <h3>Contato</h3>
+
+                    <a class="a-footer" href="https://github.com/feliperyo" title="Abrir GitHub de Felipe Ryo"
+                        target="_blank">
+                        <p>Abrir GitHub</p>
+                    </a>
+                    <a class="a-footer" href="https://www.behance.net/feliperyo" title="Abrir Behance de Felipe Ryo"
+                        target="_blank">
+                        <p>Abrir Behance</p>
+                    </a>
+                    <a class="a-footer" href="https://www.linkedin.com/in/feliperyo/"
+                        title="Abrir LinkedIn de Felipe Ryo" target="_blank">
+                        <p>Abrir LinkedIn</p>
+                    </a>
+                    <a class="a-footer" href="http://wa.me/551172821988"
+                        title="Enviar mensagem no WhatsApp para Felipe Ryo" target="_blank">
+                        <p>Abrir WhatsApp: (11)97282-1988</p>
+                    </a>
+                    <a class="a-footer" href="mailto:ryofeliperyo@gmail.com" type="Email"
+                        title="Enviar Email para Felipe Ryo" target="_blank">
+                        <p>Enviar Email: ryofeliperyo@gmail.com</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-down">
+                <p class="footer-mark">© 2024 Felipe Ryo</p>
+            </div>
+
+        </section>
+
+        <div class="whatsapp">
+            <a href="http://wa.me/551172821988" target="_blank">
+                <a href="http://wa.me/551172821988" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+        </div>
+
+    </div>
+
+    <div class="video-bg">
+        <video alt="video de fundo" autoplay muted loop>
+            <source src="./assets/bg/video-bg.mov" type="video/mov">
+            <source src="./assets/bg/video-bg.mp4" type="video/mp4">
+            <source src="./assets/bg/video-bg.webm" type="video/webm">
+            <source src="./assets/bg/video-bg.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="preloader">
+        <video alt="video de fundo" autoplay muted loop>
+            <source src="./assets/bg/preloader.mov" type="video/mov">
+            <source src="./assets/bg/preloader.mp4" type="video/mp4">
+            <source src="./assets/bg/preloader.webm" type="video/webm">
+            <source src="./assets/bg/preloader.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="video-bg-tablet">
+        <video alt="video de fundo" autoplay muted loop width="1030">
+            <source src="./assets/bg/video-bg-tablet.mov" type="video/mov">
+            <source src="./assets/bg/video-bg-tablet.mp4" type="video/mp4">
+            <source src="./assets/bg/video-bg-tablet.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="preloader-tablet">
+        <video alt="video de fundo" autoplay muted loop width="1030">
+            <source src="./assets/bg/preloader-tablet.mov" type="video/mov">
+            <source src="./assets/bg/preloader-tablet.mp4" type="video/mp4">
+            <source src="./assets/bg/preloader-tablet.webm" type="video/webm">
+            <source src="./assets/bg/preloader-tablet.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="video-bg-mobile">
+        <video alt="video de fundo" autoplay muted loop width="500">
+            <source src="./assets/bg/video-bg-mobile.mov" type="video/mov">
+            <source src="./assets/bg/video-bg-mobile.mp4" type="video/mp4">
+            <source src="./assets/bg/video-bg-mobile.webm" type="video/webm">
+            <source src="./assets/bg/video-bg-mobile.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="preloader-mobile">
+        <video alt="video de fundo" autoplay muted loop width="500">
+            <source src="./assets/bg/preloader-mobile.mov" type="video/mov">
+            <source src="./assets/bg/preloader-mobile.mp4" type="video/mp4">
+            <source src="./assets/bg/preloader-mobile.webm" type="video/webm">
+            <source src="./assets/bg/preloader-mobile.ogg" type="video/ogg">
+        </video>
+        <div class="mascara"></div>
+    </div>
+
+</body>
+
+<script src="./responsiveness.js"></script>
+<script src="./observer.js"></script>
+<script src="./mobile-navbar.js"></script>
+
+</html>
